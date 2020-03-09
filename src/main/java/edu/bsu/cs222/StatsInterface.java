@@ -54,7 +54,7 @@ public class StatsInterface extends JFrame {
         HttpRequest httpRequest =new HttpRequest();
         try {
             teamsName.setText(teamName);
-            winNumber.setText("Wins: "+ String.valueOf(httpRequest.getTeamsData(teamOrder,"wins")));
+            winNumber.setText("Wins:    "+ String.valueOf(httpRequest.getTeamsData(teamOrder,"wins")));
             lossNumber.setText("Losses: "+ String.valueOf(httpRequest.getTeamsData(teamOrder,"losses")));
             icon = new ImageIcon(new URL("http://mat1.gtimg.com/sports/nba/logo/1602/"+teamId+".png"));
             logo.setIcon(icon);

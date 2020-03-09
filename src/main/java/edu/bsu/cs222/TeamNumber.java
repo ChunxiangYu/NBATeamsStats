@@ -17,13 +17,13 @@ public class TeamNumber {
         nbaTeamsId.put("Portland Trailblazers",22);
         nbaTeamsId.put("Minnesota Timberwolves",16);
         nbaTeamsId.put("Oklahoma City Thunder",25);
-        nbaTeamsId.put("Dallas Lone Ranger",6);
+        nbaTeamsId.put("Dallas Mavericks",6);
         nbaTeamsId.put("San Antonio Spurs",24);
-        nbaTeamsId.put("Vancouver Grizzlies",29);
+        nbaTeamsId.put("Memphis Grizzlies",29);
         nbaTeamsId.put("New Orleans Pelicans",3);
         nbaTeamsId.put("Boston Celtics",2);
-        nbaTeamsId.put("New York Knickerbockers",18);
-        nbaTeamsId.put("New Jersey Nets",17);
+        nbaTeamsId.put("New York Knicks",18);
+        nbaTeamsId.put("Brooklyn Nets",17);
         nbaTeamsId.put("Philadelphia 76ers",20);
         nbaTeamsId.put("Toronto Raptors",28);
         nbaTeamsId.put("Miami Heat",14);

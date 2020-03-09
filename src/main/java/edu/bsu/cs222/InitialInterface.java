@@ -35,10 +35,10 @@ public class InitialInterface{
         tabbedPane.add("Stats", statsPanel);
         tabbedPane.add("Compare", comparePanel);
         statsPanel.add(buildJLabel("Select your favorite team:", 10, 20, 80, 25));
-        String teamsNames[] = {"Milwaukee Bucks", "Houston Rockets", "Dallas Lone Ranger","LA Clippers","New Orleans Pelicans","Washington Wizards",
-                "LA Lakers","Portland Trailblazers","San Antonio Spurs","Vancouver Grizzlies", "Boston Celtics","Toronto Raptors","Minnesota Timberwolves","Phoenix Suns","Miami Heat",
-                "Utah Jazz","Oklahoma City Thunder","Atlanta Hawks", "Denver Nuggets","New Jersey Nets","Indiana Pacers", "Philadelphia 76ers","Detroit Pistons","Golden State Warriors","Chicago Bulls",
-                "Cleveland Cavaliers","New York Knickerbockers","Orlando Magic","Charlotte Hornets"};
+        String teamsNames[] = {"Milwaukee Bucks", "Houston Rockets", "Dallas Mavericks","LA Clippers","New Orleans Pelicans","Washington Wizards",
+                "LA Lakers","Portland Trailblazers","San Antonio Spurs","Memphis Grizzlies", "Boston Celtics","Toronto Raptors","Minnesota Timberwolves","Phoenix Suns","Miami Heat",
+                "Utah Jazz","Oklahoma City Thunder","Atlanta Hawks", "Denver Nuggets","Brooklyn Nets","Indiana Pacers", "Philadelphia 76ers","Detroit Pistons","Golden State Warriors","Chicago Bulls",
+                "Cleveland Cavaliers","New York Knicks","Orlando Magic","Charlotte Hornets"};
         statsPanel.add(buildJComboBox("Teams", "Golden State Warriors", teamsNames, 0, 100, 20, 165, 25));
         return tabbedPane;
 
